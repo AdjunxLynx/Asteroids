@@ -2,6 +2,14 @@
 
 This is a small project made by me to create the game Asteroids using `pygame`
 
+<img width="750" alt="image" src="https://github.com/AdjunxLynx/Asteroids/assets/117390288/4084fa90-d647-419d-b586-4a88e41b7734">
+
+at the top, we can see:
+1. total bullets in play
+2. total asteroids in play
+3. total points
+4. FPS
+
 ## main.py
 
 using PyGame and a simple loop, the script Blits a character onto the screen. a function called `detect_events()` reads from all inputs, and if any of the arrow keys are pressed, will call the `move()` function
